@@ -1,0 +1,6 @@
+{
+  "name": "FROG POND 3D — Ao Sen Săn Tên",
+  "description": "Trò chơi 3D chọn ngẫu nhiên tên học sinh trong lớp học với bối cảnh ao sen, ếch nhảy đớp mồi và côn trùng mang tên sinh động.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

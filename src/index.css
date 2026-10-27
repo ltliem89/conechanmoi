@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #072227;
+    color: #f8fafc;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-mono-tabular {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar for student list textarea */
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+textarea::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.4);
+  border-radius: 4px;
+}
+textarea::-webkit-scrollbar-thumb {
+  background: rgba(52, 211, 153, 0.45);
+  border-radius: 4px;
+}
+textarea::-webkit-scrollbar-thumb:hover {
+  background: rgba(52, 211, 153, 0.75);
+}
